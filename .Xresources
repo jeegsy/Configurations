@@ -1,0 +1,94 @@
+URxvt.font: xft:Ubuntu Mono derivative Powerline:regular:size=16
+URxvt.scrollBar: false
+
+! Color Scheme
+! Low contrast theme, based on Zenburn <http://slinky.imukuppi.org/zenburnpage/>
+! Modified from <https://gist.github.com/564084>
+URxvt.foreground:       #dcdccc
+URxvt.background:       #3f3f3f
+URxvt.color0:           #3f3f3f
+URxvt.color1:           #705050
+URxvt.color2:           #00b45a
+URxvt.color3:           #dfcf8f
+URxvt.color4:           #506070
+URxvt.color5:           #dc8cc3
+URxvt.color6:           #8cd0d3
+URxvt.color7:           #dcdccc
+URxvt.color8:           #709080
+URxvt.color9:           #cc5454
+URxvt.color10:          #4d9f4d
+URxvt.color11:          #f0dfaf
+URxvt.color12:          #4186be
+URxvt.color13:          #ec93d3
+URxvt.color14:          #93e0e3
+URxvt.color15:          #ffffff
+
+!! Xterm Terminal Settings
+
+! Fonts
+XTerm*renderFont: true
+XTerm*faceName: DejaVu Sans Mono for Powerline
+XTerm*faceSize: 10
+
+! Set locale to UTF-8
+XTerm.vt100.locale: true
+
+
+! Cursor
+XTerm.cursorBlink: true
+
+! Select Text
+XTerm.highlightSelection: true
+
+! Scrolling
+XTerm*SaveLines: 16384
+
+XTerm.vt100.scrollBar: true
+XTerm.vt100.scrollBar.width: 8
+xterm*rightScrollBar: true
+
+! Clipboard access
+XTerm*selectToClipboard: true
+
+
+! Theme - Solarized
+XTerm*background: #002b36
+XTerm*foreground: #657b83
+!*fading: 40
+XTerm*fadeColor: #002b36
+XTerm*cursorColor: #93a1a1
+XTerm*pointerColorBackground: #586e75
+XTerm*pointerColorForeground: #93a1a1
+!
+!black dark/light
+XTerm*color0: #073642
+XTerm*color8: #002b36
+!
+! red dark/light
+XTerm*color1: #dc322f
+XTerm*color9: #cb4b16
+!
+! green dark/light
+XTerm*color2: #859900
+XTerm*color10: #586e75
+!
+! yellow dark/light
+XTerm*color3: #b58900
+XTerm*color11: #657b83
+!
+! blue dark/light
+XTerm*color4: #268bd2
+XTerm*color12: #839496
+!
+! magenta dark/light
+Xterm*color5: #d33682
+Xterm*color13: #6c71c4
+!
+! cyan dark/light
+XTerm*color6: #2aa198
+XTerm*color14: #93a1a1
+!
+! white dark/light
+XTerm*color7: #eee8d5
+XTerm*color15: #fdf6e3
+
